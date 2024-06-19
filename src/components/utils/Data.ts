@@ -1,13 +1,3 @@
-import {
-  Gamepad2,
-  Headphones,
-  Image,
-  LucideIcon,
-  Share2,
-  Shirt,
-  ShoppingCart,
-  Ticket,
-} from 'lucide-react';
 
 export interface ISectionCardData {
   id: number;
@@ -46,50 +36,50 @@ export const projectCard: IProjectSectionCardData[] = [
   },
   {
     id: 3,
-    title: 'Amazon Clone',
+    title: 'Virtual Setup',
     techStack:
-      'NodeJs, Express, Mongoose, Next.js 13, Next Auth, React Hook Form, Typescript, Tailwind CSS',
-    imageUrl: 'amazon-clone.jpeg',
-    href: 'https://github.com/nwaliaez/eCommerce',
+      'Spline3D, Figma, Architecture, Motion Physics, Javascript, Bootstrap CSS',
+    imageUrl: '31325.png',
+    href: '#',
   },
   {
     id: 4,
-    title: ' DALL·E Clone',
-    techStack: 'OpenAI, Nodejs, Express, Mongoose, ReactJS, Tailwind CSS',
-    imageUrl: 'dalle-clone.webp',
-    href: 'https://github.com/nwaliaez/dalleClone',
+    title: 'GNDU Noteline',
+    techStack: 'Figma, University, Database, Teamwork, Management, Javascript',
+    imageUrl: 'noteline.png',
+    href: 'https://gndunoteline.vercel.app/',
   },
 ];
 
 export const moreProjects = [
   {
     id: 1,
-    title: 'Ez Clothing',
-    techStack: 'Next.js 13, Drizzle, PostgreSql, Docker, ShadCn',
-    icon: 'shirt',
-    href: 'https://github.com/nwaliaez/ezClothing',
+    title: 'Linkedin',
+    techStack: 'harleen001',
+    icon: 'linkedin',
+    href: 'https://www.linkedin.com/in/harleen001/',
   },
   {
     id: 2,
-    title: 'Ethereum Lottery',
-    techStack: 'Solidity, Ethers, Hardhat, Chai',
-    icon: 'lottery',
-    href: 'https://github.com/nwaliaez/HardhatLottery',
+    title: 'Github',
+    techStack: 'harleen001',
+    icon: 'github',
+    href: 'https://github.com/harleen001',
   },
   {
     id: 3,
-    title: 'File Sharing App',
-    techStack: 'Node js, Express, Web Sockets, WebRTC, ReactJs',
-    icon: 'share',
-    href: 'https://github.com/nwaliaez/filetransfer-webrtc',
+    title: 'Youtube',
+    techStack: 'devwhoisstuck',
+    icon: 'youtube',
+    href: 'https://www.youtube.com/@devwhoisstuck',
   },
 
   {
     id: 4,
-    title: 'Snake Game',
-    techStack: 'Next.js 13, Tailwind CSS, Typescript',
-    icon: 'game',
-    href: 'https://snake-nwaliaez.vercel.app/',
+    title: 'Email',
+    techStack: 'harleen.johal31@gmail.com',
+    icon: 'email',
+    href: 'https://harleen.johal31@gmail.com/',
   },
 ];
 

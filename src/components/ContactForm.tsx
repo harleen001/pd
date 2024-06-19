@@ -1,6 +1,6 @@
 'use client';
 import { FC, FormEvent, MouseEvent, useState } from 'react';
-import Label from './ContactForm/Label';
+
 import Button from './ui/Button';
 import { useContact } from './Provider';
 import { X } from 'lucide-react';
@@ -57,33 +57,15 @@ const ContactForm: FC<ContactFormProps> = ({}) => {
                     className="h-screen bg-blur backdrop-filter backdrop-blur-sm bg-[rgba(0,0,0,0.9)] w-screen fixed z-40 flex items-center justify-center"
                     onClick={() => setFormVisibility()}
                 >
-                    <X className="text-primary absolute right-5 top-5 cursor-pointer" />
+                    <X className="absolute cursor-pointer text-primary right-5 top-5" />
                     <form
                         method="POST"
                         onSubmit={handleSubmit}
                         onClick={handleFormClick}
-                        className="grid gap-5 w-96 p-5 bg-cardPrimary rounded-lg text-info shadow-lg relative"
+                        className="relative grid gap-5 p-5 rounded-lg shadow-lg w-96 bg-cardPrimary text-info"
                     >
-                        <Label
-                            readInput={readInput}
-                            value={formData.name}
-                            name="name"
-                            label="Full Name"
-                        />
-                        <Label
-                            readInput={readInput}
-                            value={formData.email}
-                            name="email"
-                            label="Email"
-                            type="email"
-                        />
-                        <Label
-                            readInput={readInput}
-                            value={formData.message}
-                            name="message"
-                            label="Message"
-                            type="textarea"
-                        />
+                       
+                          
                         <Button
                             disabled={loader}
                             variant="highlight"

@@ -21,7 +21,7 @@ export default function Home() {
       <div className="flex flex-col gap-10 lg:px-10">
         {/* <Hero /> */}
         <ProjectCardSection title="Projects" data={projectCard} />
-        <MoreProjects title="More projects" data={moreProjects} />
+        <MoreProjects title="Social" data={moreProjects} />
 
         <CardSection title="Web3" data={web3Cards} />
         <CardSection title="Others" data={otherCards} />

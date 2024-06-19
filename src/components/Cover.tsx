@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 import ProfileName from './cover/ProfileName';
 import Button from './ui/Button';
-import { Instagram } from 'lucide-react';
+import { Briefcase, BriefcaseIcon, Instagram, LucideBriefcase } from 'lucide-react';
 import Link from 'next/link';
 
 interface CoverProps {}
@@ -21,9 +21,9 @@ const Cover: FC<CoverProps> = ({}) => {
                             href="https://instagram.com/ezSnippet"
                         >
                             <Button variant="primary" sizes={'small'}>
-                                <Instagram />
+                                <BriefcaseIcon />
                                 <span className="hidden md:block">
-                                    Follow me on Instagram
+                                    View my Portfolio
                                 </span>
                             </Button>
                         </Link>
