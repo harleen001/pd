@@ -1,6 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
-
+import { Analytics } from "@vercel/analytics/react"
 import ContactForm from '@/components/ContactForm';
 import { ContactFormProvider, MenuProvider } from '@/components/Provider';
 import { Toaster } from 'react-hot-toast';
@@ -31,6 +31,7 @@ export default function RootLayout({
                         </div>
                     </ContactFormProvider>
                 </MenuProvider>
+                <Analytics/>
             </body>
         </html>
     );
