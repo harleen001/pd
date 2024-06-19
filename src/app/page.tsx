@@ -1,7 +1,7 @@
 import Cover from '@/components/Cover';
 import CardSection from '@/components/sections/CardSection';
 import MoreProjects from '@/components/sections/MoreProjects';
-import Hero from '@/components/sections/Hero';
+
 import ProjectCardSection from '@/components/sections/ProjectCardSection';
 import {
   backendCard,
