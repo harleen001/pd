@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { FC } from 'react';
 import Button from '../ui/Button';
-import { Github, Instagram, User } from 'lucide-react';
+import { BriefcaseIcon, Github, Instagram, User } from 'lucide-react';
 
 interface ProfileNameProps {}
 
@@ -13,11 +13,11 @@ const ProfileName: FC<ProfileNameProps> = ({}) => {
             👨‍🎓 I’m Harleen Singh, a 20 year-old undergrad student.
                 <Link
                     className="block md:hidden"
-                    href="https://instagram.com/ezSnippet"
+                     href="https://harleensingh.vercel.app"
                     target='_blank'
                 >
                     <Button variant="primary" sizes={'iconOnly'}>
-                        <Github />
+                        <BriefcaseIcon />
                     </Button>
                 </Link>
 
