@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 interface CardProps {
     title: string;
-    snippetCount: number;
+    snippetCount: string;
     exp: string;
     src: string;
     progress: number;
@@ -24,7 +24,7 @@ const Card: FC<CardProps> = ({
     return (
         <div className="flex flex-col gap-3">
             <Link target="_blank" href={href || '/'}>
-                <div className="relative aspect-video rounded-lg overflow-hidden">
+                <div className="relative overflow-hidden rounded-lg aspect-video">
                     <Image
                         src={src}
                         alt={title}
@@ -42,7 +42,7 @@ const Card: FC<CardProps> = ({
                 </div>
             </Link>
             <div className="grid gap-2 px-2">
-                <div className="text-highlight font-bold">{title}</div>
+                <div className="font-bold text-highlight">{title}</div>
                 <div className="flex gap-2 md:gap-10">
                     <List
                         variant="info"
