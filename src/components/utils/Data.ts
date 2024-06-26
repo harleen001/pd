@@ -102,7 +102,7 @@ export const web3Cards: ISectionCardData[] = [
     exp: '20 May',
     snippetCount: 'Backend',
     progress: 80,
- 
+    href: 'https://github.com/harleen001/CustomURL-Express-MongoDb',
   },
   {
     id: 3, 
@@ -111,6 +111,7 @@ export const web3Cards: ISectionCardData[] = [
     exp: '24 March',
     snippetCount: 'Algorithms',
     progress: 30,
+    href: 'https://github.com/harleen001/AlgoPlayground',
   },
   {
     id: 4,
@@ -119,6 +120,7 @@ export const web3Cards: ISectionCardData[] = [
     exp: '25 December',
     snippetCount: '3D',
     progress: 100,
+    href: 'https://github.com/harleen001/rebeltales',
   },
   {
     id: 5,
@@ -127,6 +129,7 @@ export const web3Cards: ISectionCardData[] = [
     exp: '26 June',
     snippetCount: 'Fullstack',
     progress: 70,
+    href: 'https://harleen.vercel.app/',
   },
 ];
 
