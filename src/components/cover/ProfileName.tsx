@@ -13,7 +13,7 @@ const ProfileName: FC<ProfileNameProps> = ({}) => {
             👨‍🎓 I’m Harleen Singh, a 20 year-old undergrad student.
                 <Link
                     className="block md:hidden"
-                     href="https://harleensingh.vercel.app"
+                   href="https://drive.google.com/file/d/14fV3JKnazdhsaaiYMNnweZxv-zLeHXLC/view?usp=sharing"
                     target='_blank'
                 >
                     <Button variant="primary" sizes={'iconOnly'}>

@@ -18,12 +18,12 @@ const Cover: FC<CoverProps> = ({}) => {
                         <Link
                             className="hidden md:block"
                             target="_blank"
-                            href="https://harleensingh.vercel.app"
+                             href="https://drive.google.com/file/d/14fV3JKnazdhsaaiYMNnweZxv-zLeHXLC/view?usp=sharing"
                         >
                             <Button variant="primary" sizes={'small'}>
                                 <BriefcaseIcon />
                                 <span className="hidden md:block">
-                                    View my Portfolio
+                                    Resume
                                 </span>
                             </Button>
                         </Link>

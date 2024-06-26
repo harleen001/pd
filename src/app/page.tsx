@@ -4,10 +4,7 @@ import MoreProjects from '@/components/sections/MoreProjects';
 
 import ProjectCardSection from '@/components/sections/ProjectCardSection';
 import {
-  backendCard,
-  databaseCard,
-  devopsCards,
-  frontendCard,
+  
   moreProjects,
   otherCards,
   projectCard,
@@ -23,7 +20,7 @@ export default function Home() {
         <ProjectCardSection title="Projects" data={projectCard} />
         <MoreProjects title="Social" data={moreProjects} />
 
-        <CardSection title="Web3" data={web3Cards} />
+        <CardSection title="Web" data={web3Cards} />
         <CardSection title="Others" data={otherCards} />
       </div>
     </div>
