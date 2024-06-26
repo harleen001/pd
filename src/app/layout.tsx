@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react"
 import ContactForm from '@/components/ContactForm';
 import { ContactFormProvider, MenuProvider } from '@/components/Provider';
 import { Toaster } from 'react-hot-toast';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
     title: 'Harleen Singh',
@@ -33,6 +34,7 @@ export default function RootLayout({
                     </ContactFormProvider>
                 </MenuProvider>
                 <Analytics/>
+                <SpeedInsights/>
             </body>
         </html>
     );
