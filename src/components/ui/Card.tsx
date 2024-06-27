@@ -4,6 +4,7 @@ import List from './List';
 import { Code, History } from 'lucide-react';
 import Link from 'next/link';
 
+
 interface CardProps {
     title: string;
     snippetCount: string;
@@ -51,7 +52,7 @@ const Card: FC<CardProps> = ({
                         sizes="xs"
                     >
                         <Code size={16} />
-                        {snippetCount.toLocaleString()}
+                     
                     </List>
                     <List
                         variant="info"

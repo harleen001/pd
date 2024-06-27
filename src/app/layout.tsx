@@ -1,7 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Analytics } from "@vercel/analytics/react"
-import ContactForm from '@/components/ContactForm';
+
 import { ContactFormProvider, MenuProvider } from '@/components/Provider';
 import { Toaster } from 'react-hot-toast';
 import { SpeedInsights } from "@vercel/speed-insights/next"
@@ -21,8 +21,7 @@ export default function RootLayout({
             <body>
                 
                 <MenuProvider>
-                    <ContactFormProvider>
-                        <ContactForm />
+                    
                         <Toaster />
                         <div className="flex">
                             
@@ -31,7 +30,7 @@ export default function RootLayout({
                                 {children}
                             </main>
                         </div>
-                    </ContactFormProvider>
+                 
                 </MenuProvider>
                 <Analytics/>
                 <SpeedInsights/>

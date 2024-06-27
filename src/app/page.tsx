@@ -1,4 +1,5 @@
 import Cover from '@/components/Cover';
+import AboutSection from '@/components/sections/AboutSection';
 import CardSection from '@/components/sections/CardSection';
 import MoreProjects from '@/components/sections/MoreProjects';
 
@@ -9,6 +10,7 @@ import {
   otherCards,
   projectCard,
   web3Cards,
+  aboutsection,
 } from '@/components/utils/Data';
 
 export default function Home() {
@@ -17,6 +19,7 @@ export default function Home() {
       <Cover />
       <div className="flex flex-col gap-10 lg:px-10">
         {/* <Hero /> */}
+        <AboutSection title="About" data={aboutsection} />
         <ProjectCardSection title="Projects" data={projectCard} />
         <MoreProjects title="Social" data={moreProjects} />
 

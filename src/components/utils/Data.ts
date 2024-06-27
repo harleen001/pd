@@ -18,6 +18,13 @@ export interface IProjectSectionCardData {
   href?: string;
 }
 
+export interface AboutsectionData {
+  id: number,
+  date : string,
+  text : string,
+
+}
+
 export const projectCard: IProjectSectionCardData[] = [
   {
     id: 1,
@@ -159,3 +166,13 @@ export const otherCards: ISectionCardData[] = [
     progress: 70,
   },
 ];
+
+
+export const aboutsection: AboutsectionData[] = [
+  {
+    id: 1,
+    date: 'PrecisonLib240 Library',
+    text: 'MIT-Licensed,Open Source,C++,Library Packages,',
+  
+  },
+]
