@@ -52,7 +52,7 @@ const Card: FC<CardProps> = ({
                         sizes="xs"
                     >
                         <Code size={16} />
-                     
+                        {snippetCount.toLocaleString()}
                     </List>
                     <List
                         variant="info"

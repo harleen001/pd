@@ -4,7 +4,7 @@ export interface ISectionCardData {
   title: string;
   src: string;
   exp: string;
-  snippetCount: string;
+  snippet: string;
   progress: number;
   href?: string;
 }
@@ -98,7 +98,7 @@ export const web3Cards: ISectionCardData[] = [
     title: 'CRUD',
     src: '/tech/web3/crud.png',
     exp: '10 May',
-    snippetCount: 'MERN',
+    snippet: 'MERN',
     progress: 100,
     href: 'https://github.com/harleen001/Mongoose-Express',
   },
@@ -107,7 +107,7 @@ export const web3Cards: ISectionCardData[] = [
     title: 'Custom URL',
     src: '/tech/web3/customurl.png',
     exp: '20 May',
-    snippetCount: 'Backend',
+    snippet: 'Backend',
     progress: 80,
     href: 'https://github.com/harleen001/CustomURL-Express-MongoDb',
   },
@@ -116,7 +116,7 @@ export const web3Cards: ISectionCardData[] = [
     title: 'Playground',
     src: '/tech/web3/algo.png',
     exp: '24 March',
-    snippetCount: 'Algorithms',
+    snippet: 'Algorithms',
     progress: 30,
     href: 'https://github.com/harleen001/AlgoPlayground',
   },
@@ -125,7 +125,7 @@ export const web3Cards: ISectionCardData[] = [
     title: 'RebelTales',
     src: '/tech/web3/rebeltales.png',
     exp: '25 December',
-    snippetCount: '3D',
+    snippet: '3D',
     progress: 100,
     href: 'https://github.com/harleen001/rebeltales',
   },
@@ -134,7 +134,7 @@ export const web3Cards: ISectionCardData[] = [
     title: 'Portfolio',
     src: '/tech/web3/port.png',
     exp: '26 June',
-    snippetCount: 'Fullstack',
+    snippet: 'Fullstack',
     progress: 70,
     href: 'https://harleen.vercel.app/',
   },
@@ -143,28 +143,30 @@ export const web3Cards: ISectionCardData[] = [
 export const otherCards: ISectionCardData[] = [
   {
     id: 1,
-    title: 'Rest API',
-    src: '/tech/others/rest.png',
-    exp: '1 day ago',
-    snippetCount: 'MERN',
-    progress: 90,
+    title: 'Restful API',
+    src: '/tech/others/restapi.png',
+    exp: '6 May',
+    snippet: 'API',
+    progress: 100,
+    href:'https://github.com/harleen001/Restful-API',
   },
   {
     id: 2,
-    title: 'SOAP API',
-    src: '/tech/others/soap.jpg',
-    exp: '1 day ago',
-    snippetCount: 'MERN',
+    title: 'Firebase Authentication',
+    src: '/tech/others/firebase.png',
+    exp: '25 June',
+    snippet: 'Baas',
     progress: 70,
+    href:'https://github.com/harleen001/firebase_authentication',
   },
-  {
-    id: 3,
-    title: 'GraphQl',
-    src: '/tech/others/graphql.png',
-    exp: '1 day ago',
-    snippetCount: 'MERN',
-    progress: 70,
-  },
+ // {
+   // id: 3,
+   // title: 'GraphQl',
+   // src: '/tech/others/graphql.png',
+   // exp: '1 day ago',
+   // snippetCount: 'MERN',
+   // progress: 70,
+ // },
 ];
 
 
