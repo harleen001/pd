@@ -7,7 +7,7 @@ interface ProfileNameProps {}
 
 const ProfileName: FC<ProfileNameProps> = ({}) => {
     return (
-        <div className="flex flex-col font-sans text-3xl text-highlight">
+        <div className="flex flex-col items-center font-sans text-3xl text-highlight">
          My portfolio
             <div className="flex items-center justify-between text-sm font-thin">
             
