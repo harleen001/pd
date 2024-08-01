@@ -159,7 +159,7 @@ export const web3Cards: ISectionCardData[] = [
   title: 'GistGen AI',
   src: '/tech/web3/gist.png',
   exp: '25 July',
-  snippet: 'AI Summarizer',
+  snippet: 'API',
   progress: 100,
   href: 'https://gistgenai.vercel.app/',
 },
