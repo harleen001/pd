@@ -31,7 +31,7 @@ const TechStack: FC<TechStackProps> = ({}) => {
           classaName="bg-[#e0558a]"
           tech={['MySql', 'MongoDB','Figma',
             'Vercel',
-            'GIT']}
+            'GIT','Spline']}
         />
         <TechCard
           title="Cloud"

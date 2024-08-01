@@ -47,7 +47,7 @@ export const projectCard: IProjectSectionCardData[] = [
     techStack:
       'Spline3D, Figma, Architecture, Motion Physics, Javascript, Bootstrap CSS',
     imageUrl: '31325.png',
-    href: '#',
+    href: 'https://www.figma.com/design/K3NzUMoP7FYgl6eDA5DcCk/Untitled?node-id=0-1&t=5dT53Vks7CyTZA7A-1',
   },
   {
     id: 4,
@@ -138,6 +138,35 @@ export const web3Cards: ISectionCardData[] = [
     progress: 70,
     href: 'https://harleen.vercel.app/',
   },
+  {
+    id: 6,
+    title: 'Buildspace',
+    src: '/tech/web3/build.png',
+    exp: '04 July',
+    snippet: 'Prototype',
+    progress: 70,
+    href: 'https://www.figma.com/design/vIsrmLnuUjl4tFgykR6aHG/Untitled?node-id=0-1&t=Rw3AyG8JZteQQiFU-1',
+  },
+  {id: 7,
+  title: 'Greko',
+  src: '/tech/web3/greko.png',
+  exp: '12 July',
+  snippet: 'Prototype',
+  progress: 90,
+  href: 'https://www.figma.com/design/cBh4F6BEo3T36BjW98OmCK/Untitled?node-id=3-70&t=h1GOE8VbjaJAuEnU-1',
+},
+{id: 7,
+  title: 'GistGen AI',
+  src: '/tech/web3/gist.png',
+  exp: '25 July',
+  snippet: 'AI Summarizer',
+  progress: 100,
+  href: 'https://gistgenai.vercel.app/',
+},
+
+
+
+
 ];
 
 export const otherCards: ISectionCardData[] = [

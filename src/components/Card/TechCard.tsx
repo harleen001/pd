@@ -11,8 +11,8 @@ interface TechCardProps {
 
 const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
   return (
-    <div className="flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg">
-      <div className="text-primary font-medium text-lg tracking-wider">
+    <div className="flex flex-col flex-1 gap-4 p-4 rounded-md shadow-lg bg-cardPrimary">
+      <div className="text-lg font-medium tracking-wider text-primary">
         {title}
       </div>
       <div className="flex flex-wrap gap-2">
@@ -25,6 +25,7 @@ const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
               item === 'C++' && 'border border-yellow-500/60',
               item === 'PHP' && 'border border-emerald-500/60',
               item === 'Javascript' && 'border border-yellow-500/60',
+              item === 'Spline' && 'border border-yellow-500/60',
               item === 'React Js' && 'border border-blue-500/60',
               item === 'Next Js 13' && 'border border-black/60',
               item === 'Node Js' && 'border border-green-500/60',
