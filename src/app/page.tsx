@@ -10,6 +10,7 @@ import {
   otherCards,
   projectCard,
   web3Cards,
+  threedCards,
   aboutsection,
 } from '@/components/utils/Data';
 
@@ -24,6 +25,7 @@ export default function Home() {
         <MoreProjects title="Social" data={moreProjects} />
 
         <CardSection title="Web" data={web3Cards} />
+        <CardSection title="3D Model" data={threedCards} />
         <CardSection title="Others" data={otherCards} />
       </div>
     </div>

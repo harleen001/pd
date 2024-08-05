@@ -169,6 +169,83 @@ export const web3Cards: ISectionCardData[] = [
 
 ];
 
+
+
+export const threedCards: ISectionCardData[] = [
+  {
+    id: 1,
+    title: 'Cabin Woods',
+    src: '/tech/threed/cabin.png',
+    exp: '25 July',
+    snippet: 'Scene',
+    progress: 100,
+    href: '/tech/threed/cabin.png',
+  },
+  {
+    id: 2,
+    title: 'Harleen Desk',
+    src: '/tech/threed/harleen.png',
+    exp: '29 July',
+    snippet: 'Setup',
+    progress: 90,
+    href: '/tech/threed/harleen.png',
+  },
+  {
+    id: 3,
+    title: 'Silk Arena',
+    src: '/tech/threed/silk.png',
+    exp: '30 July',
+    snippet: 'Scene',
+    progress: 80,
+    href: '/tech/threed/silk.png',
+  },
+  {
+    id: 4,
+    title: 'Iman Desk',
+    src: '/tech/threed/iman.png',
+    exp: '2 July',
+    snippet: 'Setup',
+    progress: 100,
+    href: '/tech/threed/iman.png',
+  },
+  {
+    id: 5,
+    title: 'Kartik Desk',
+    src: '/tech/threed/kartik.png',
+    exp: '2 July',
+    snippet: 'Setup',
+    progress: 90,
+    href: '/tech/threed/kartik.png',
+  },
+  {
+    id: 6,
+    title: 'III XIII XXV Shelter',
+    src: '/tech/threed/shelter.png',
+    exp: '4 July',
+    snippet: 'Scene',
+    progress: 100,
+    href: '/tech/threed/shelter.png',
+  },
+  {
+    id: 7,
+    title: 'Recreation Room',
+    src: '/tech/threed/recreation.png',
+    exp: '5 July',
+    snippet: 'Setup',
+    progress: 80,
+    href: '/tech/threed/recreation.png',
+  },
+  {
+    id: 8,
+    title: 'House on Wheels',
+    src: '/tech/threed/house.png',
+    exp: '7 July',
+    snippet: 'Scene',
+    progress: 90,
+    href: '/tech/threed/house.png',
+  },
+];
+
 export const otherCards: ISectionCardData[] = [
   {
     id: 1,
