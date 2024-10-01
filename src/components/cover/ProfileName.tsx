@@ -13,7 +13,7 @@ const ProfileName: FC<ProfileNameProps> = ({}) => {
             
                 <Link
                     className="block md:hidden"
-                   href="https://drive.google.com/file/d/1vqMA6EApCy7nEQAmrrzf3pf-W7Wr373c/view?usp=sharing"
+                   href="https://drive.google.com/file/d/1jc7PMSIomg6owg5FHTlNo8j92M_fY-3I/view?usp=sharing"
                     target='_blank'
                 >
                     <Button variant="primary" sizes={'iconOnly'}>
