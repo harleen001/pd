@@ -18,7 +18,7 @@ const Cover: FC<CoverProps> = ({}) => {
                         <Link
                             className="hidden md:block"
                             target="_blank"
-                             href="https://drive.google.com/file/d/1jc7PMSIomg6owg5FHTlNo8j92M_fY-3I/view?usp=sharing"
+                             href="https://drive.google.com/file/d/1M8GtQFIpglYXBtkXo-aeDi8QxS5C-KZY/view?usp=sharing"
                         >
                             
                             <Button variant="primary" sizes={'small'}>
