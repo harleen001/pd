@@ -77,7 +77,7 @@ export const moreProjects = [
     id: 3,
     title: 'Twitter',
     techStack: 'devwhoisstuck',
-    icon: 'X',
+    icon: 'twitter',
     href: 'https://x.com/devwhoisstuck',
   },
 
