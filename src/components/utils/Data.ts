@@ -75,10 +75,10 @@ export const moreProjects = [
   },
   {
     id: 3,
-    title: 'Youtube',
+    title: 'Twitter',
     techStack: 'devwhoisstuck',
-    icon: 'youtube',
-    href: 'https://www.youtube.com/@devwhoisstuck',
+    icon: 'X',
+    href: 'https://x.com/devwhoisstuck',
   },
 
   {

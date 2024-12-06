@@ -1,5 +1,5 @@
 import { FC, ReactNode } from 'react';
-import { ChevronRight, GithubIcon, Linkedin, Mail, Youtube } from 'lucide-react';
+import { ChevronRight, GithubIcon, Linkedin, Mail, TwitterIcon, Youtube } from 'lucide-react';
 import Link from 'next/link';
 
 
@@ -13,7 +13,7 @@ interface MoreProjectsCardsProps {
 const iconsMap = {
   linkedin: <Linkedin />,
   github: <GithubIcon />,
-  youtube: <Youtube />,
+  twitter: <TwitterIcon />,
   email: <Mail />,
 };
 
