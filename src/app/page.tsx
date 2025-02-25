@@ -1,9 +1,10 @@
 import Cover from '@/components/Cover';
 import AboutSection from '@/components/sections/AboutSection';
 import CardSection from '@/components/sections/CardSection';
-import MoreProjects from '@/components/sections/MoreProjects';
+
 
 import ProjectCardSection from '@/components/sections/ProjectCardSection';
+import TechStack from '@/components/TechStack';
 import {
   
   moreProjects,
@@ -21,7 +22,7 @@ export default function Home() {
       <div className="flex flex-col gap-10 lg:px-10">
         {/* <Hero /> */}
         <AboutSection title="About" data={aboutsection} />
-        <MoreProjects title="Social" data={moreProjects} />
+        <TechStack/>
         <ProjectCardSection title="Projects" data={projectCard} />
        
 
