@@ -4,7 +4,6 @@ import List from './List';
 import { Code, History } from 'lucide-react';
 import Link from 'next/link';
 
-
 interface CardProps {
     title: string;
     snippetCount: string;

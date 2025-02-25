@@ -29,7 +29,7 @@ export const projectCard: IProjectSectionCardData[] = [
   {
     id: 1,
     title: 'PrecisonLib240 Library',
-    techStack: 'MIT-Licensed,Open Source,C++,Library Packages,',
+    techStack: 'MIT-Licensed,Open Source,C++',
     imageUrl: 'pl.png',
     href: 'https://github.com/harleen001/PrecisionLib240',
   },
@@ -37,7 +37,7 @@ export const projectCard: IProjectSectionCardData[] = [
     id: 2,
     title: 'University Campus',
     techStack:
-      'Campus Website, HTML5 , Material UI , UI/UX , Javascript, Bootstrap CSS, Deployment',
+      'Campus Website,UI/UX, Deployment',
     imageUrl: 'gndurc.png',
     href: 'https://gndurcjal.in/',
   },
@@ -45,14 +45,14 @@ export const projectCard: IProjectSectionCardData[] = [
     id: 3,
     title: 'Virtual Setup',
     techStack:
-      'Spline3D, Figma, Architecture, Motion Physics, Javascript, Bootstrap CSS',
+      'Spline3D, Figma,Motion Physics',
     imageUrl: '31325.png',
     href: 'https://www.figma.com/design/K3NzUMoP7FYgl6eDA5DcCk/Untitled?node-id=0-1&t=5dT53Vks7CyTZA7A-1',
   },
   {
     id: 4,
     title: 'GNDU Noteline',
-    techStack: 'Figma, University, Database, Teamwork, Management, Javascript',
+    techStack: 'University, Database, Teamwork',
     imageUrl: 'noteline.png',
     href: 'https://gndunoteline.vercel.app/',
   },
@@ -280,7 +280,7 @@ export const aboutsection: AboutsectionData[] = [
   {
     id: 1,
     date: 'PrecisonLib240 Library',
-    text: 'MIT-Licensed,Open Source,C++,Library Packages,',
+    text: 'MIT-Licensed,Open Source,C++',
   
   },
 ]

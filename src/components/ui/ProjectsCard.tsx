@@ -17,17 +17,24 @@ const ProjectsCard: FC<ProjectsCardProps> = ({
 }) => {
   return (
     <Link target="_blank" href={href || '/'}>
-      <div className="flex flex-col gap-3 overflow-hidden bg-white rounded-lg text-zinc-800 overflow-ellipsis">
-        <Image
-          src={`/projects/${src}`}
-          alt="spotify"
-          width={700}
-          height={700}
-          className="object-cover aspect-video"
-        />
-        <div className="flex flex-col h-24 px-4 py-2">
-          <div className="flex font-bold">{title}</div>
-          <div className="flex text-xs text-info">{techStack}</div>
+      <div className="flex flex-col justify-between p-2 overflow-hidden rounded-lg shadow-md bg-cardPrimary text-zinc-200">
+        <div className="flex items-center justify-between space-x-3">
+          {/* Image */}
+          <div className="flex-shrink-0 w-16 h-16 overflow-hidden rounded-lg">
+            <Image
+              src={`/projects/${src}`}
+              alt={title}
+              width={64}
+              height={64}
+              className="object-cover w-full h-full"
+            />
+          </div>
+
+          {/* Title and Tech Stack */}
+          <div className="flex-1 w-full">
+            <div className="text-sm font-semibold truncate">{title}</div>
+            <div className="text-xs truncate text-info">{techStack}</div>
+          </div>
         </div>
       </div>
     </Link>

@@ -21,8 +21,9 @@ export default function Home() {
       <div className="flex flex-col gap-10 lg:px-10">
         {/* <Hero /> */}
         <AboutSection title="About" data={aboutsection} />
-        <ProjectCardSection title="Projects" data={projectCard} />
         <MoreProjects title="Social" data={moreProjects} />
+        <ProjectCardSection title="Projects" data={projectCard} />
+       
 
         <CardSection title="Web" data={web3Cards} />
         <CardSection title="3D Model" data={threedCards} />
