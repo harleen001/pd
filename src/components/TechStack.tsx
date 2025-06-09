@@ -6,7 +6,7 @@ interface TechStackProps {}
 const TechStack: FC<TechStackProps> = ({}) => {
   return (
     <div className="col-span-2 p-6 px-6 space-y-8 md:px-16 lg:px-24 md:col-span-2 lg:col-span-3">
-      <div className="mt-2 mb-5 text-xl font-medium text-zinc-200">
+      <div className="text-xl font-medium text-zinc-200">
         What I know
       </div>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">

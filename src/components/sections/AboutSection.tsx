@@ -12,7 +12,7 @@ const AboutSection: FC<AboutSectionProps> = ({ title, version, data }) => {
         <section className="grid gap-5 p-5 mx-4 md:p-0 md:mx-20">
   {/* Paragraph on top */}
   <p className="space-y-4 text-zinc-500 dark:text-slate-300">
-    <p className="my-4 leading-loose text-justify">
+    <p className="leading-loose text-justify">
       I am currently an undergraduate student at {' '}
       <a
         className="font-medium underline transition duration-100 rounded-sm focusable text-zinc-800 decoration-blue-500 decoration-2 underline-offset-2 hover:text-blue-500 hover:decoration-sky-500/30 focus:text-blue-500 focus:ring-sky-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"

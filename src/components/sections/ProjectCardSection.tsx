@@ -9,10 +9,10 @@ interface ProjectCardSectionProps {
 
 const ProjectCardSection: FC<ProjectCardSectionProps> = ({ title, data }) => {
   return (
-    <section className="p-4 px-6 mt-4 md:px-16 lg:px-24">
+    <section className="p-4 px-6 md:px-16 lg:px-24">
       <div className="text-lg font-medium text-zinc-200">{title}</div>
       {/* Flex layout on small screens (mobile) and grid layout on larger screens */}
-      <div className="flex flex-col gap-4 mt-4 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+      <div className="flex flex-col gap-4 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
         {data.map((card) => (
           <ProjectsCard
             href={card.href}

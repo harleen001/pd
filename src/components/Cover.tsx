@@ -9,7 +9,7 @@ interface CoverProps {}
 
 const Cover: FC<CoverProps> = ({}) => {
     return (
-        <div className="flex w-full bg-no-repeat bg-cover rounded-lg ">
+        <div className="flex w-full bg-no-repeat bg-cover rounded-lg">
   <div className="flex justify-center w-full gap-2 py-5 overflow-hidden md:rounded-lg md:px-10 bg-blur backdrop-filter backdrop-blur-md md:gap-10">
     
     <div className="flex flex-col justify-center gap-4 pr-4 ml-2 mr-16 md:flex-1">
