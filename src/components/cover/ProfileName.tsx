@@ -1,39 +1,37 @@
 import Link from 'next/link';
 import { FC } from 'react';
-import Button from '../ui/Button';
-import { BriefcaseIcon, Github, Instagram,Linkedin, Twitter, User, Mail } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, BriefcaseIcon } from 'lucide-react';
 
 interface ProfileNameProps {}
 
-const ProfileName: FC<ProfileNameProps> = ({}) => {
-    return (
-      <div className="flex flex-col items-center p-4 space-y-4 font-sans text-3xl text-highlight md:px-10 md:mx-10">
-      {/* Header and Social Icons in one line */}
-      <div className="flex items-center gap-3 pl-2 md:gap-6 md:pl-0"> {/* Adjusted gap for larger screens */}
-        <h1 className="text-2xl font-semibold">Harleen Singh</h1>
-        <a href="https://www.linkedin.com/in/harleen001/">
-          <Linkedin className="w-6 h-6 ml-4 text-primary" />
+const ProfileName: FC<ProfileNameProps> = () => {
+  return (
+    <div className="flex flex-col items-center justify-center space-y-4 text-center md:items-start md:text-left">
+      <h1 className="text-xl font-semibold text-highlight md:text-2xl">Harleen Singh</h1>
+
+      <div className="flex flex-wrap justify-center gap-4 md:justify-start">
+        <a href="https://www.linkedin.com/in/harleen001/" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-6 h-6 text-primary" />
         </a>
-        <a href="https://github.com/harleen001">
+        <a href="https://github.com/harleen001" target="_blank" rel="noopener noreferrer">
           <Github className="w-6 h-6 text-primary" />
         </a>
-        <a href="https://x.com/devwhoisstuck">
+        <a href="https://x.com/devwhoisstuck" target="_blank" rel="noopener noreferrer">
           <Twitter className="w-6 h-6 text-primary" />
         </a>
         <a href="mailto:harleen.johal31@gmail.com">
           <Mail className="w-6 h-6 text-primary" />
         </a>
-         <a href="https://drive.google.com/file/d/1M8GtQFIpglYXBtkXo-aeDi8QxS5C-KZY/view?usp=sharin">
+        <a
+          href="https://drive.google.com/file/d/1kyM7zhWQ56wpBLdfNFl7SCwniHJOoRzk/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BriefcaseIcon className="w-6 h-6 text-white" />
         </a>
       </div>
-    
-      {/* Button for Resume */}
     </div>
-    
-
-
-    );
+  );
 };
 
 export default ProfileName;

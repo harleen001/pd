@@ -1,38 +1,30 @@
 import { FC } from 'react';
-
 import ProfileName from './cover/ProfileName';
 import Button from './ui/Button';
-import { Briefcase, BriefcaseIcon, Instagram, LucideBriefcase } from 'lucide-react';
+import { BriefcaseIcon } from 'lucide-react';
 import Link from 'next/link';
 
 interface CoverProps {}
 
-const Cover: FC<CoverProps> = ({}) => {
-    return (
-        <div className="flex w-full bg-no-repeat bg-cover rounded-lg">
-  <div className="flex justify-center w-full gap-2 py-5 overflow-hidden md:rounded-lg md:px-10 bg-blur backdrop-filter backdrop-blur-md md:gap-10">
-    
-    <div className="flex flex-col justify-center gap-4 pr-4 ml-2 mr-16 md:flex-1">
-      <div className="flex items-center justify-between w-full gap-5">
+const Cover: FC<CoverProps> = () => {
+  return (
+    <div className="w-full bg-cover bg-no-repeat rounded-lg">
+      <div className="flex flex-col items-center justify-between w-full gap-6 px-4 py-6 md:flex-row md:px-10 bg-blur backdrop-blur-md rounded-lg">
         <ProfileName />
-        
-        {/* Resume Button */}
+
         <Link
-          className="hidden md:block"
+          className="hidden md:inline-block"
           target="_blank"
-          href="https://drive.google.com/file/d/1M8GtQFIpglYXBtkXo-aeDi8QxS5C-KZY/view?usp=sharing"
+          href="https://drive.google.com/file/d/1kyM7zhWQ56wpBLdfNFl7SCwniHJOoRzk/view?usp=sharing"
         >
-          <Button variant="primary" sizes={'small'}>
-            <BriefcaseIcon />
-            <span className="hidden md:block">Resume</span>
+          <Button variant="primary" sizes="small">
+            <BriefcaseIcon className="mr-2" />
+            <span>Resume</span>
           </Button>
         </Link>
       </div>
     </div>
-  </div>
-</div>
-
-    );
+  );
 };
 
 export default Cover;
