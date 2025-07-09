@@ -9,7 +9,7 @@ interface CardProps {
     snippetCount: string;
     exp: string;
     src: string;
-    progress: number;
+   
     href?: string;
 }
 
@@ -19,7 +19,7 @@ const Card: FC<CardProps> = ({
     exp,
     src,
     href,
-    progress,
+   
 }) => {
     return (
         <div className="flex flex-col gap-3">
@@ -31,15 +31,7 @@ const Card: FC<CardProps> = ({
                         fill
                         className="object-cover"
                     />
-                    <div className="progress-bar">
-                        <div
-                            className="h-full bg-btnHighlight"
-                            style={{
-                                width: `${progress}%`,
-                            }}
-                        />
-                    </div>
-                </div>
+                   </div>
             </Link>
             <div className="grid gap-2 px-2">
                 <div className="font-bold text-highlight">{title}</div>

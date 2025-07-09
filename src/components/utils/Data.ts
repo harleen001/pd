@@ -5,7 +5,6 @@ export interface ISectionCardData {
   src: string;
   exp: string;
   snippet: string;
-  progress: number;
   href?: string;
 }
 
@@ -95,74 +94,106 @@ export const moreProjects = [
 export const web3Cards: ISectionCardData[] = [
   {
     id: 1,
-    title: 'CRUD',
-    src: '/tech/web3/crud.png',
-    exp: '10 May',
-    snippet: 'MERN',
-    progress: 100,
-    href: 'https://github.com/harleen001/Mongoose-Express',
+    title: 'Grow My Theraphy',
+    src: '/tech/web3/grow.png',
+    exp: '15 June',
+    snippet: 'Next.JS',
+    href: 'https://growmytheraphy.vercel.app',
   },
   {
     id: 2,
-    title: 'Custom URL',
+    title: 'Velocity Edge',
     src: '/tech/web3/customurl.png',
     exp: '20 May',
     snippet: 'Backend',
-    progress: 80,
     href: 'https://github.com/harleen001/CustomURL-Express-MongoDb',
   },
   {
-    id: 3, 
-    title: 'Playground',
+    id: 3,
+    title: 'Celebrare Canvas',
+    src: '/tech/web3/grow.png',
+    exp: '15 June',
+    snippet: 'Next.JS',
+    href: 'https://growmytheraphy.vercel.app',
+  },
+  {
+    id: 4, 
+    title: 'Flat CV',
     src: '/tech/web3/algo.png',
     exp: '24 March',
     snippet: 'Algorithms',
-    progress: 30,
     href: 'https://github.com/harleen001/AlgoPlayground',
   },
   {
-    id: 4,
+    id: 5,
     title: 'RebelTales',
     src: '/tech/web3/rebeltales.png',
     exp: '25 December',
     snippet: '3D',
-    progress: 100,
     href: 'https://github.com/harleen001/rebeltales',
   },
   {
-    id: 5,
+    id: 6,
+    title: 'RebelTales',
+    src: '/tech/web3/rebeltales.png',
+    exp: '25 December',
+    snippet: '3D',
+    href: 'https://github.com/harleen001/rebeltales',
+  },
+  {
+    id: 7,
+    title: 'Custom URL',
+    src: '/tech/web3/customurl.png',
+    exp: '20 May',
+    snippet: 'Backend',
+    href: 'https://github.com/harleen001/CustomURL-Express-MongoDb',
+  },
+  {
+    id: 8,
     title: 'Portfolio',
     src: '/tech/web3/port.png',
     exp: '26 June',
     snippet: 'Fullstack',
-    progress: 70,
     href: 'https://harleen.vercel.app/',
   },
   {
-    id: 6,
+    id: 9, 
+    title: 'Playground',
+    src: '/tech/web3/algo.png',
+    exp: '24 March',
+    snippet: 'Algorithms',
+    href: 'https://github.com/harleen001/AlgoPlayground',
+  },
+  {
+    id: 10,
     title: 'Buildspace',
     src: '/tech/web3/build.png',
     exp: '04 July',
     snippet: 'Prototype',
-    progress: 70,
     href: 'https://www.figma.com/design/vIsrmLnuUjl4tFgykR6aHG/Untitled?node-id=0-1&t=Rw3AyG8JZteQQiFU-1',
   },
-  {id: 7,
+  {id: 11,
   title: 'Greko',
   src: '/tech/web3/greko.png',
   exp: '12 July',
   snippet: 'Prototype',
-  progress: 90,
   href: 'https://www.figma.com/design/cBh4F6BEo3T36BjW98OmCK/Untitled?node-id=3-70&t=h1GOE8VbjaJAuEnU-1',
 },
-{id: 7,
+{id: 12,
   title: 'GistGen AI',
   src: '/tech/web3/gist.png',
   exp: '25 July',
   snippet: 'API',
-  progress: 100,
   href: 'https://gistgenai.vercel.app/',
 },
+ {
+    id: 13,
+    title: 'CRUD',
+    src: '/tech/web3/crud.png',
+    exp: '10 May',
+    snippet: 'MERN',
+    href: 'https://github.com/harleen001/Mongoose-Express',
+  },
 
 
 
@@ -178,7 +209,6 @@ export const threedCards: ISectionCardData[] = [
     src: '/tech/threed/cabin.png',
     exp: '25 July',
     snippet: 'Scene',
-    progress: 100,
     href: '/tech/threed/cabin.png',
   },
   {
@@ -187,7 +217,6 @@ export const threedCards: ISectionCardData[] = [
     src: '/tech/threed/harleen.png',
     exp: '29 July',
     snippet: 'Setup',
-    progress: 90,
     href: '/tech/threed/harleen.png',
   },
   {
@@ -196,7 +225,6 @@ export const threedCards: ISectionCardData[] = [
     src: '/tech/threed/silk.png',
     exp: '30 July',
     snippet: 'Scene',
-    progress: 80,
     href: '/tech/threed/silk.png',
   },
   {
@@ -205,7 +233,6 @@ export const threedCards: ISectionCardData[] = [
     src: '/tech/threed/iman.png',
     exp: '2 July',
     snippet: 'Setup',
-    progress: 100,
     href: '/tech/threed/iman.png',
   },
   {
@@ -214,7 +241,6 @@ export const threedCards: ISectionCardData[] = [
     src: '/tech/threed/kartik.png',
     exp: '2 July',
     snippet: 'Setup',
-    progress: 90,
     href: '/tech/threed/kartik.png',
   },
   {
@@ -223,7 +249,6 @@ export const threedCards: ISectionCardData[] = [
     src: '/tech/threed/shelter.png',
     exp: '4 July',
     snippet: 'Scene',
-    progress: 100,
     href: '/tech/threed/shelter.png',
   },
   {
@@ -232,7 +257,6 @@ export const threedCards: ISectionCardData[] = [
     src: '/tech/threed/recreation.png',
     exp: '5 July',
     snippet: 'Setup',
-    progress: 80,
     href: '/tech/threed/recreation.png',
   },
   {
@@ -241,7 +265,6 @@ export const threedCards: ISectionCardData[] = [
     src: '/tech/threed/house.png',
     exp: '7 July',
     snippet: 'Scene',
-    progress: 90,
     href: '/tech/threed/house.png',
   },
 ];
@@ -253,7 +276,6 @@ export const otherCards: ISectionCardData[] = [
     src: '/tech/others/restapi.png',
     exp: '6 May',
     snippet: 'API',
-    progress: 100,
     href:'https://github.com/harleen001/Restful-API',
   },
   {
@@ -262,17 +284,8 @@ export const otherCards: ISectionCardData[] = [
     src: '/tech/others/firebase.png',
     exp: '25 June',
     snippet: 'Baas',
-    progress: 70,
     href:'https://github.com/harleen001/firebase_authentication',
   },
- // {
-   // id: 3,
-   // title: 'GraphQl',
-   // src: '/tech/others/graphql.png',
-   // exp: '1 day ago',
-   // snippetCount: 'MERN',
-   // progress: 70,
- // },
 ];
 
 

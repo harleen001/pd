@@ -22,7 +22,7 @@ const CardSection: FC<CardSectionProps> = ({ title, version, data }) => {
             src={card.src}
             exp={card.exp}
             snippetCount={card.snippet}
-            progress={card.progress}
+            
           />
         ))}
       </div>
