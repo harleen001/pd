@@ -92,16 +92,32 @@ export const moreProjects = [
 
 
 export const web3Cards: ISectionCardData[] = [
-  {
+   {
     id: 1,
+    title: 'Sketchbook Studio',
+    src: '/tech/web3/sketch.png',
+    exp: '10 July',
+    snippet: 'Next.JS',
+    href: 'https://sketchbookstudio.vercel.app',
+  },
+  {
+    id: 2,
     title: 'Grow My Theraphy',
     src: '/tech/web3/grow.png',
     exp: '15 June',
     snippet: 'Next.JS',
     href: 'https://growmytheraphy.vercel.app',
   },
+   {
+    id: 3,
+    title: 'Guru Nanak Lab',
+    src: '/tech/web3/guru.png',
+    exp: '28 June',
+    snippet: 'Next.JS',
+    href: 'https://gurunanaklab.in',
+  },
   {
-    id: 2,
+    id: 4,
     title: 'Velocity Edge',
     src: '/tech/web3/velocity.png',
     exp: '20 Feburary',
@@ -109,7 +125,7 @@ export const web3Cards: ISectionCardData[] = [
     href: 'https://velocityedge.vercel.app',
   },
   {
-    id: 3,
+    id: 5,
     title: 'Celebrare Canvas',
     src: '/tech/web3/celeb.png',
     exp: '11 April',
@@ -117,7 +133,7 @@ export const web3Cards: ISectionCardData[] = [
     href: 'https://celebrarecanvas.vercel.app',
   },
   {
-    id: 4, 
+    id: 6, 
     title: 'Flat CV',
     src: '/tech/web3/flat.png',
     exp: '20 June',
@@ -125,7 +141,7 @@ export const web3Cards: ISectionCardData[] = [
     href: 'https://flatcv.vercel.app',
   },
   {
-    id: 5,
+    id: 7,
     title: 'RebelTales',
     src: '/tech/web3/rebeltales.png',
     exp: '25 December',
@@ -134,7 +150,7 @@ export const web3Cards: ISectionCardData[] = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: 'Custom URL',
     src: '/tech/web3/customurl.png',
     exp: '20 May',
@@ -142,7 +158,7 @@ export const web3Cards: ISectionCardData[] = [
     href: 'https://github.com/harleen001/CustomURL-Express-MongoDb',
   },
   {
-    id: 7,
+    id: 9,
     title: 'Portfolio',
     src: '/tech/web3/port.png',
     exp: '26 June',
@@ -150,7 +166,7 @@ export const web3Cards: ISectionCardData[] = [
     href: 'https://harleen.vercel.app/',
   },
   {
-    id: 8, 
+    id: 10, 
     title: 'AlgoPlayground',
     src: '/tech/web3/algo.png',
     exp: '24 March',
@@ -158,21 +174,21 @@ export const web3Cards: ISectionCardData[] = [
     href: 'https://github.com/harleen001/AlgoPlayground',
   },
   {
-    id: 9,
+    id: 11,
     title: 'Buildspace',
     src: '/tech/web3/build.png',
     exp: '04 July',
     snippet: 'Prototype',
     href: 'https://www.figma.com/design/vIsrmLnuUjl4tFgykR6aHG/Untitled?node-id=0-1&t=Rw3AyG8JZteQQiFU-1',
   },
-  {id: 10,
+  {id: 12,
   title: 'Greko',
   src: '/tech/web3/greko.png',
   exp: '12 July',
   snippet: 'Prototype',
   href: 'https://www.figma.com/design/cBh4F6BEo3T36BjW98OmCK/Untitled?node-id=3-70&t=h1GOE8VbjaJAuEnU-1',
 },
-{id: 11,
+{id: 13,
   title: 'GistGen AI',
   src: '/tech/web3/gist.png',
   exp: '25 July',
@@ -180,7 +196,7 @@ export const web3Cards: ISectionCardData[] = [
   href: 'https://gistgenai.vercel.app/',
 },
  {
-    id: 12,
+    id: 14,
     title: 'CRUD',
     src: '/tech/web3/crud.png',
     exp: '10 May',
