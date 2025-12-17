@@ -203,7 +203,54 @@ export const web3Cards: ISectionCardData[] = [
     snippet: 'MERN',
     href: 'https://github.com/harleen001/Mongoose-Express',
   },
-
+  {
+    id: 15,
+    title: 'Restaurant',
+    src: '/tech/web3/june.png',
+    exp: '16 Jan',
+    snippet: 'Typescript',
+    href: 'https://juneberry.vercel.app/',
+  },
+{
+    id: 16,
+    title: 'Speech to Text',
+    src: '/tech/web3/speech.png',
+    exp: '21 Jan',
+    snippet: 'Dart',
+    href: 'https://github.com/harleen001/speech_text',
+  },
+  {
+    id: 17,
+    title: 'PDF Annotation',
+    src: '/tech/web3/pdf.png',
+    exp: '04 July',
+    snippet: 'Typescript',
+    href: 'https://pdf-annotation-six.vercel.app/',
+  },
+  {
+    id: 18,
+    title: 'Dynamic Table Manager',
+    src: '/tech/web3/table.png',
+    exp: '12 July',
+    snippet: 'Typescript',
+    href: 'https://datamanager-rust.vercel.app/',
+  },
+  {
+    id: 19,
+    title: 'SECTALK Workshop',
+    src: '/tech/web3/sec.png',
+    exp: '01 Nov',
+    snippet: 'Next.js',
+    href: 'https://sectalk.vercel.app/',
+  },
+  {
+    id: 20,
+    title: 'Task Flow',
+    src: '/tech/web3/task.png',
+    exp: '27 Nov',
+    snippet: 'Next.js',
+    href: 'https://taskflowassignment.vercel.app/',
+  },
 
 
 
